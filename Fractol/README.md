@@ -31,7 +31,8 @@ additionnel:
       ft_wchar_fonction (x 3)
 
 ##### Fractal de Mandelbrot:
-https://github.com/pde-maul/42/blob/master/Fractol/Mandelbrot%20fractal.png
+![Mandelbrot](https://github.com/pde-maul/42/blob/master/Fractol/Mandelbrot%20fractal.png)
+
 
 ##### Fractal de Rabbit:
 https://github.com/pde-maul/42/blob/master/Fractol/Rabbit%20Fractal.png
