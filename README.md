@@ -18,8 +18,7 @@ Fonctionnalités:
 Notions visées:
 - [X] Ray-Casting (simulation 3D)
 - [X] Algorithme de lancement de Rayons
-- [X] Algorithme de traçage de Rayons
-- [X] Touche 'Echap' ferme la fenêtre en cours, ou toutes les fenêtres si on est au menu
+- [X] Pratique du C
 
  -----------------------
 
