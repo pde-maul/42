@@ -25,5 +25,6 @@ Fonctionnalités:
 ```
 ```
 ##### Une des représentation de la fractal de Julia:
-![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Julia%20fractal.png)
 ```
+![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Julia%20fractal.png)
+
