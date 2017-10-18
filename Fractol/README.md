@@ -15,16 +15,15 @@ Fonctionnalités:
 - [X] Makefile
 
  -----------------------
- ```
+
 ##### Fractal de Mandelbrot:
 ![Mandelbrot](https://github.com/pde-maul/42/blob/master/Fractol/Mandelbrot%20fractal.png)
-```
-```
+
+
 ##### Fractal de Rabbit:
 ![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Rabbit%20Fractal.png)
-```
-```
+
+
 ##### Une des représentation de la fractal de Julia:
-```
 ![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Julia%20fractal.png)
 
