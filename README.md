@@ -22,5 +22,5 @@ Notions visées:
 
  -----------------------
 
-##### Fractal de Mandelbrot:
-![Mandelbrot](https://github.com/pde-maul/42/blob/master/Fractol/Mandelbrot%20fractal.png)
+##### Exemple de labyrinthe:
+![Mandelbrot](https://github.com/pde-maul/42/blob/master/Wolf3D/wol3d.png)
