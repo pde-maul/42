@@ -30,14 +30,16 @@ additionnel:
       ft_itoa_base (x 13)
       ft_wchar_fonction (x 3)
 
+##### Fractal de Mandelbrot:
+https://github.com/pde-maul/42/blob/master/Fractol/Mandelbrot%20fractal.png
 
-##### test avec libft_unit_test:
-https://github.com/alelievr/libft-unit-test
+##### Fractal de Rabbit:
+https://github.com/pde-maul/42/blob/master/Fractol/Rabbit%20Fractal.png
+
+##### Une des représentation de la fractal de Julia:
+https://github.com/pde-maul/42/blob/master/Fractol/Julia%20fractal.png
 
 ![unit_test](http://imgur.com/Gg04XWu.png)
 
-
-##### test avec 42_FileChecker:
-https://github.com/jgigault/42FileChecker
 
 ![42_filechecker](http://imgur.com/UM9MEO0.png)
