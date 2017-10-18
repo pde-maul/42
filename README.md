@@ -1,18 +1,22 @@
-# 42
-# Wolf3D
->>>> ##### exploration project.
->>>>>
+
+# 42  /  Wolf3D
+>>>> ##### Projet en C
 
 ##### Grade ``(113/100)``
 --------  -----------------------
 
-Basic fonctions:
-- [X] Fonctions First part
-- [X] Second part
+Fonctionnalités:
+- [X] deplacement dans un labyrinthe
+- [X] possibilité de modifier la carte (parseur)
 - [X] Makefile
 
-Bonus:
-- [X] Fonctions listes Chainées
+Compétences visées:
+- [X] Utilisation du Ray-Casting
+- [X] Algorithmes de base d'affichage
+- [X] Algorithmes de base création de fenêtres
+- [X] Algorithmes de base gestion des couleurs
+- [X] Algorithmes de base gestion des événements
+- [X] Algorithmes de base remplissage des formes
 
 additionnel:
 - [X] Fonctions ajoutées
