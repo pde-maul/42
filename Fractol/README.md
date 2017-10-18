@@ -35,12 +35,8 @@ additionnel:
 
 
 ##### Fractal de Rabbit:
-https://github.com/pde-maul/42/blob/master/Fractol/Rabbit%20Fractal.png
+![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Rabbit%20Fractal.png)
+
 
 ##### Une des représentation de la fractal de Julia:
-https://github.com/pde-maul/42/blob/master/Fractol/Julia%20fractal.png
-
-![unit_test](http://imgur.com/Gg04XWu.png)
-
-
-![42_filechecker](http://imgur.com/UM9MEO0.png)
+![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Julia%20fractal.png)
