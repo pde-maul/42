@@ -4,6 +4,9 @@
 
 ##### Grade ``(113/100)``
 --------  -----------------------
+```
+ création   de   plusieurs   types   de   fractales   utilisant   l'algèbre   linéaire   en   C
+```
 
 Fonctionnalités:
 - [X] Menu de sélection
