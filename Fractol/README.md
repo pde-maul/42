@@ -1,5 +1,5 @@
 
-# 42  /  Wolf3D
+# 42  /  Fract'ol
 >>>> ##### Projet en C
 
 ##### Grade ``(113/100)``
