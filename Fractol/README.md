@@ -6,37 +6,24 @@
 --------  -----------------------
 
 Fonctionnalités:
-- [X] deplacement dans un labyrinthe
-- [X] possibilité de modifier la carte (parseur)
+- [X] Menu de sélection
+- [X] Multi-fenêtres
+- [X] Fractale de Julia modifiable (en fonction de la position de la souris)
+- [X] zoom in / out quasi-infini
+- [X] Ajustemet des itérations
+- [X] Touche 'Echap' ferme la fenêtre en cours, ou toutes les fenêtres si on est au menu
 - [X] Makefile
 
-Compétences visées:
-- [X] Utilisation du Ray-Casting
-- [X] Algorithmes de base d'affichage
-- [X] Algorithmes de base création de fenêtres
-- [X] Algorithmes de base gestion des couleurs
-- [X] Algorithmes de base gestion des événements
-- [X] Algorithmes de base remplissage des formes
-
-additionnel:
-- [X] Fonctions ajoutées
-
-      ft_sqrt
-      ft_max
-      ft_min
-      ft_sort_integer_tab
-      ft_sort_params
-      ft_putnbr_base (x 14)
-      ft_itoa_base (x 13)
-      ft_wchar_fonction (x 3)
-
+ -----------------------
+ ```
 ##### Fractal de Mandelbrot:
 ![Mandelbrot](https://github.com/pde-maul/42/blob/master/Fractol/Mandelbrot%20fractal.png)
-
-
+```
+```
 ##### Fractal de Rabbit:
 ![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Rabbit%20Fractal.png)
-
-
+```
+```
 ##### Une des représentation de la fractal de Julia:
 ![Rabbit](https://github.com/pde-maul/42/blob/master/Fractol/Julia%20fractal.png)
+```
