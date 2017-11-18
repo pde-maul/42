@@ -41,9 +41,20 @@ Fonctionnalités:
 ```
 Interface
 ```
-![interface](https://github.com/pde-maul/42/blob/master/Wolf3D/wol3d.png)
+![interface](https://github.com/pde-maul/42/blob/master/C/Ray_Tracer/ScreenShot/SS_interface.png)
 
 ```
 Scène avec réflexion
 ```
-![Scène avec réflexion](https://github.com/pde-maul/42/blob/master/Wolf3D/wol3d.png)
+![Scène avec réflexion](https://github.com/pde-maul/42/blob/master/C/Ray_Tracer/ScreenShot/infinie.bmp)
+
+```
+Scène avec réflexion
+```
+![Scène avec anti-Aliasing](https://github.com/pde-maul/42/blob/master/C/Ray_Tracer/ScreenShot/4_cylindres.bmp)
+
+
+```
+Scène avec Textures, ombres et transparence
+```
+![Scène avec Textures](https://github.com/pde-maul/42/blob/master/C/Ray_Tracer/ScreenShot/Damier.bmp)
