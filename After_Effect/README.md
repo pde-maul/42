@@ -1,8 +1,5 @@
-#titre 42 / Cursus Créa 
 # 42 / Cursus Créa 
-##titre Piscine After Effect
 ## Piscine After Effect
-
 
 ```
 Voici les projets de la piscine After Effect,  
