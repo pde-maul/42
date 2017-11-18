@@ -1,26 +1,20 @@
-# 42  /  Wolf3d
+# 42  /  Fillit
 >>>> ##### Projet en C
 
-##### Grade ``(113/100)``
+##### Grade ``(100/100)``
 --------  -----------------------
 ```
- création   'un labyrinthe en 3d projetée en   C
+Résolution d'un jeu de Tetris en C
 ```
 
 Fonctionnalités:
-- [X] Murs infranchissables
-- [X] Murs de coueurs différentes en fonction de leur orientation
-- [X] Possibilité de modifier la carte (parseur)
-- [X] La touche 'Echap' ferme les fenêtres
-- [X] Gestion des événements
-- [X] Makefile
+le programme prend en paramètres les tétrominos (les formes)  
+et essaye de les placer au mieux (enhaut a gauche dans en prenant 
+le moins de place possible)
 
 Notions visées:
-- [X] Ray-Casting (simulation 3D)
-- [X] Algorithme de lancement de Rayons
-- [X] Pratique du C
+- [X] Backtracking
+- [X] Travail de groupe
+- [X] Parseur
 
  -----------------------
-
-##### Exemple de labyrinthe:
-![Mandelbrot](https://github.com/pde-maul/42/blob/master/Wolf3D/wol3d.png)
