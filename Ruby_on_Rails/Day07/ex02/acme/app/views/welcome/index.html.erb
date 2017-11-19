@@ -1,0 +1,19 @@
+<h1>Bienvenue sur le site de vente communautaire </h1>
+
+<% if user_signed_in? %>
+  <div>
+  <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+  </div>
+  <div>
+  <%= link_to edit_user_registration_path  do %>Edit your profile<% end %>
+  </div>
+  <div>
+  <%= link_to products_path  do %>Voir les produits<% end %>
+  </div>
+
+ <% else %>
+  <div>
+  <%= link_to('Login', new_user_session_path)  %>
+  </div>
+  <%= link_to new_user_registration_path  do %>Sign in<% end %> <br/>
+<% end %>

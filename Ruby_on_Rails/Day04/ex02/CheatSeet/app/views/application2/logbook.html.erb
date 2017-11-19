@@ -1,0 +1,11 @@
+<h1>Vous voici sur le log book</h1>
+
+<label>Log Book</label>
+<%= form_tag('/logbook', method: 'post') do %>
+  <%= text_area(:text, :post, cols: 60, rows: 10) %>
+  <%= submit_tag('Write') %>
+<% end %>
+
+ <pre>
+     <%= render :file => '/entry_log.txt' %>
+ </pre>

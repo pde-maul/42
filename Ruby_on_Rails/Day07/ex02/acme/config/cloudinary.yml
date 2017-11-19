@@ -1,0 +1,18 @@
+development:
+  cloud_name: dcekdzv4p
+  api_key: '278597768991191'
+  api_secret: AVl47Jcv8noCiP_byRSA4LkITBw
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dcekdzv4p
+  api_key: '278597768991191'
+  api_secret: AVl47Jcv8noCiP_byRSA4LkITBw
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dcekdzv4p
+  api_key: '278597768991191'
+  api_secret: AVl47Jcv8noCiP_byRSA4LkITBw
+  enhance_image_tag: true
+  static_image_support: false

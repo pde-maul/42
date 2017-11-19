@@ -1,0 +1,6 @@
+<h1>bonjour</h1>
+<%= link_to new_user_registration_path  do %>Sign in<% end %>
+
+<% if signed_in? %>
+  <%= link_to "profile Edit", edit_user_registration_path %><br />
+<% end -%>

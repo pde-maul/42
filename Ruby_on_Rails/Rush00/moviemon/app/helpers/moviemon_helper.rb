@@ -1,0 +1,2 @@
+module MoviemonHelper
+end

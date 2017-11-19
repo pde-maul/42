@@ -1,0 +1,17 @@
+<div id="screen">
+	<div id="filmHead">
+		<h1><%= @moviename %></h1>
+		<p><%= @dir %>
+		<%= @year %></p>
+	</div>
+	<img id="poster" src="<%= @img %>" />
+	<div id="syn">
+		<p><%= @syn %></p>
+	</div>
+</div>
+<map name="control" id="control">
+	<area alt="Left" title="left" href="/moviemon/previous" shape="rect" coords="39,539,80,585" />
+	<area alt="Right" title="right" href="/moviemon/next" shape="rect" coords="126,540,164,585" />
+	<area alt="Select" title="select" href="/play/map" shape="poly" coords="153,689,152,695,154,702,159,702,206,681,209,674,203,668,197,666" />
+	<area alt="Power" title="power" href="/" shape="poly" coords="64,11,59,20,59,27,65,30,146,28,151,22,151,18,151,15,145,8" />
+</map>

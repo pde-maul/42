@@ -1,0 +1,176 @@
+
+@font-face {
+    font-family: galaxy_btregular;
+    src: url(../font/galaxy/galaxy-bt-webfont.eot);
+    src: url(../font/galaxy/galaxy-bt-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../font/galaxy/galaxy-bt-webfont.woff2) format('woff2'),
+         url(../font/galaxy/galaxy-bt-webfont.woff) format('woff'),
+         url(../font/galaxy/galaxy-bt-webfont.ttf) format('truetype'),
+         url(../font/galaxy/galaxy-bt-webfont.svg#galaxy_btregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* bloc image logo*/
+	
+#header_bar_global{
+	margin:0;
+	padding : 0;
+	height: 47px;
+	color : #e1b6b6;
+	background-color: #CB2D18;
+	text-decoration : none;
+	margin: 0 auto;
+    padding: 0;
+}
+
+#header_bar{
+	margin: 0 auto;
+    padding: 0;
+    width: 965px;
+}
+
+#header_bar a{
+	color : #e1b6b6;
+	text-decoration : none;
+	margin-left : 10px;
+}
+
+#header_bar a:hover{
+	color : #FFFFFF;
+
+}
+
+#header_bar img{
+	margin-left : 10px;
+}
+
+/* bloc photo header*/
+
+	#header_connexion{
+		float : right;
+		margin:0;
+		padding : 0;
+	}
+	
+	#header_connexion img{
+		margin-top : 7px;
+		float : left;
+	}
+	
+
+	#header_connexion p{
+			float : left;
+	}
+
+	#header_panier{
+		float : right;
+		margin:0;
+		padding : 0;
+	}
+	
+	#header_panier img{
+		margin-top : 7px;
+		float : left;
+	}
+
+	#header_panier p{
+			float : left;
+	}
+
+#header_box{
+	height : 259 px;
+}
+
+	#logo{
+		float : left;
+	}
+
+	#header_droite{
+		float : right;
+
+	}
+#slogan {
+	clear : left;
+	color : white;
+	font-family: galaxy_btregular;
+	font-size : 11px;
+	padding-top : 15px;
+	text-align: right;
+}
+
+#main-menu {
+	margin-top : 33px;
+	margin-left : 5px;
+	
+}
+
+#main-menu a{
+	float : left;
+	border-left : 1px solid #9a9192;
+	height : 50px;
+	width : 112px ;
+	background-color : white;
+	text-align : center;
+	line-height : 50px;
+	vertical-align : middle;
+	color : black;
+	font-size : 14px;
+	text-decoration: none;
+}
+#main-menu a:first-child{
+	border-left : none;
+}
+
+#main-menu a:hover{
+	background-color : #9a2828;
+	color : white;
+}
+
+
+#nav_image {
+	float : left;
+	height : 50px;
+	width : 65px ;
+	background-color : white;
+	line-height : 50px;
+}
+
+#nav_image a {
+	float : left;
+	height : 50px;
+	width : 65px ;
+	background-color : white;
+	line-height : 50px;
+}
+
+
+#nav_image img{
+	vertical-align : middle;
+}
+
+#recherche {
+height : 36px;
+margin-top : 90px;
+}
+
+
+#recherche input{
+background-color: white;
+width: 211px;
+height : 36px;
+float : right;
+}
+
+#recherche input[type="submit"]{
+background : #d2d4d5 url("../image/loupe.png") center left no-repeat;
+float : right;
+width: 130px;
+height : 41px;
+text-align: center;
+padding : 2px;
+margin-top : 2px;
+margin-left : 5px;
+}
+

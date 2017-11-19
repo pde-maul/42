@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/pde-maul/Documents/Ruby_on_Rails/D08/ex00","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

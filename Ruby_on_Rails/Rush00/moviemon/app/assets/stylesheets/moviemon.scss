@@ -1,0 +1,114 @@
+// Place all the styles related to the moviemon controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#content {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#gameboy {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+}
+
+#screen {
+	border: solid 1px black;
+	width: 270px;
+	height: 250px;
+	position: relative;
+	top: 100px;
+	left: 115px;
+	z-index: 1000;
+	background-color: #83BD77;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+.progress {
+	position: relative;
+}
+
+#player {
+	top: 157px;
+	left: 105px;
+}
+
+#moviemon {position: relative; left: 20px}
+#you {position: relative; top: 175px; left: 115px;}
+
+#movie {
+	top: -15px;
+	left: 15px;
+}
+p[data-value] {
+	position: relative;
+}
+
+p[data-value]:after {
+	content: attr(data-value) '%';
+	position: absolute; right:0;
+}
+
+#fight {
+	height: 250px;
+	width: 270px;
+	position: absolute;
+	z-index: -100;
+}
+
+#filmHead {
+	width: 170px;
+	position: absolute;
+	text-align: center;
+}
+#filmHead h1 {
+	font-size: 180%;
+}
+
+#syn {
+	padding: 5px;
+	margin-top: 5px;
+	text-align: justify;
+}
+#poster
+{
+	top: 10px;
+	width: 90px;
+	position: relative;
+	left: 175px;
+}
+
+.tablemap {
+	border-collapse: collapse;
+	width: 270px;
+	text-align:center;
+}
+
+.tdmap {
+	height: 25px;
+}
+.save_table {
+	background-color: #ddffcc;
+	width: 270px;
+}
+
+.save_on {
+	border-spacing: 15px;
+	border: 3px solid;
+	height: 50px;
+	background-color: powderblue;
+}
+
+.save_off {
+	border: 2px solid;
+	height: 50px;
+
+}
+
+.blank {
+	height: 25px;
+}

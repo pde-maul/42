@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+   <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+ <title><%=@title%></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div class="container">
+	  <nav>
+	    <div class="navbar navbar-fixed-top navbar-default"><div class="navbar-header"><a href="./#" class="navbar-brand cheat-sheet-brand">Rails Beginner Cheat Sheet</a></div>
+
+	      <ul class="nav navbar-nav">
+	        <li><%= link_to console_path do %>Console<%end%></li>
+	        <li class="dropdown">
+				<%= link_to ruby_path, class:"dropdown-toggle" do %><b class="caret"></b> Ruby<%end%>
+	          <!-- <a href="./#ruby" class="dropdown-toggle"><b class="caret"></b> Ruby</a> -->
+	          <ul class="dropdown-menu">
+	            <!-- <li><%= link_to console_path do %>General Concepts<%end%></li> -->
+	            <!-- <li><a href="./#ruby-concepts">General Concepts</a></li> -->
+	            <!-- <li><a href="./#ruby-numbers">Numbers</a></li> -->
+				<li><%= link_to ruby_numbers_path do %>Numbers<%end%></li>
+				<li><%= link_to ruby_strings_path do %>Strings<%end%></li>
+	            <!-- <li><a href="./#ruby-strings">Strings</a></li> -->
+	            <!-- <li><a href="./#ruby-arrays">Arrays</a></li> -->
+				<li><%= link_to ruby_arrays_path do %>Arrays<%end%></li>
+				<li><%= link_to ruby_hashes_path do %>hashes<%end%></li>
+	            <!-- <li><a href="./#ruby-hashes">Hashes</a></li> -->
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+				<%= link_to rails_path do %><b class="caret"></b> Rails<%end%>
+	          <!-- <a href="./#rails"><b class="caret"></b> Rails</a> -->
+	          <ul class="dropdown-menu">
+				  <li><%= link_to rails_rails_app_path do %>Rails App<%end%></li>
+	            <!-- <li><a href="./#rails-folder-structure">Folder Structure</a></li> -->
+	            <!-- <li><a href="./#rails-commands">Commands</a></li> -->
+				<li><%= link_to rails_rails_commands_path do %>Rails Commands<%end%></li>
+	            <!-- <li><a href="./#rails-erb">ERB: Embedded Ruby</a></li> -->
+				<li><%= link_to rails_embedded_ruby_path do %>ERB: Embedded Ruby<%end%></li>
+	          </ul>
+	        </li>
+	        <!-- <li><a href="./#editor">Editor Tips</a></li> -->
+			<li><%= link_to editor_path do %>Editor Tips<%end%></li>
+	        <!-- <li><a href="./#help">Help</a></li> -->
+	      </ul>
+	      <ul class="nav pull-right navbar-nav">
+	        <!-- <li><a href="resources.html">Resources</a></li>
+	        <li><a href="about.html">About</a></li> -->
+	      </ul>
+	    </div>
+	  </nav>
+	</div>
+
+
+	<div id="content-wrapper">
+	  <div class="container ">
+	    <section id="main-content">
+
+<%= yield %>
+</section>
+</div>
+
+</div>
+	<%= render "layouts/footer"%>
+</body>
+</html>

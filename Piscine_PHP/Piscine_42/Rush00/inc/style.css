@@ -1,0 +1,659 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #333;
+    background: #cab8a7 url(../image/images_site/body_site.jpg) repeat-x top;
+	z-index: 1;
+}
+
+a:link, a:visited { color: #9C231A; text-decoration: none; font-weight: normal; font-style::bold;}
+a:active, a:hover { color: #DD4033; text-decoration: underline; }
+
+p { margin: 0px; padding: 0px; }
+
+img { margin: 0px; padding: 0px; border: none; }
+
+.cleaner { clear: left; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.margin_r35 { margin-right: 25px; }
+.margin_r8 { margin-right: 8px; }
+
+.button_01 a {
+	display: block;
+	width: 102px;
+	height: 22px;
+	padding: 5px 0;
+	color: #a89ba5;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../image/images_site/button.png) no-repeat;
+}
+
+.button_01 a:hover {
+	color: #ffffff;
+	background: url(../image/images_site/button_hover.png) no-repeat;
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 10px 0 15px 0;
+	font-size: 24px;
+	font-weight: normal;
+	color: #271a23;
+	background: url(../image/images_site/title_bg.jpg) bottom left no-repeat;
+}
+
+h3 {
+	margin: 0	;
+	padding: 2px 0;
+	font-size: 18px;
+	font-weight: normal;
+	color: #271a23;
+}
+
+#wrapper {
+	width: 990px;
+	margin: 0 auto;
+	min-height : 810px;
+}
+
+
+/******************** MENU PRINCIPAL **********************/
+
+.erreur{
+background-color : #922217;
+color: #D3A3AF;
+text-indent: 20px;
+}
+
+.validation{
+background-color : #3D2B37;
+color: white;
+text-indent: 20px;
+}
+
+
+/******************** MENU PRINCIPAL **********************/
+
+.menu {
+	clear: both;
+	width: 920px;
+	height: 50px;
+	margin-top: -20px;
+	margin-left: 250px;
+	padding: 0 10px;
+}
+
+.menu a:link,
+.menu a:visited {
+	float: left;
+	display: block;
+	height: 70px;
+	width: 120px;
+	padding: 20px 0 0 20px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #D3A3AF;
+	font-weight: normal;
+	outline: none;
+	background: url(../image/images_site/menu_divider.png) center left no-repeat;
+}
+
+
+.menu_long:link,
+.menu_long:visited{
+width: 190px;
+}
+
+.menu a span {   /* Chiffres */
+	display: block;
+	color: #b56076;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+.menu a:hover span,     /* Chiffres hover */
+.menu .current span {
+	color: #ffffff;
+}
+
+
+/******************** FIN MENU PRINCIPAL **********************/
+
+
+/******************** HEADER **********************/
+
+#header_bar {
+	clear: both;
+	width: 970px;
+	height: 119px;
+	padding: 0 10px;
+	overflow: hidden;
+	/*background: url(../image/images_site/header_right.png) right bottom no-repeat;*/
+}
+
+#header_bar .right{
+background: url(../image/images_site/site_title_right.png) right 15px no-repeat;
+width: 20px;
+margin-left: -20px;
+height : 100px;
+float: left;
+}
+
+#header_bar  .slogan {
+	padding: 3px 10px;
+	color: #e1d1d6;
+	font-size: 12px;
+	font-style: italic;
+	width: 470px;
+	height : 100px;
+	text-indent : 20px;
+
+	padding-top : 30px;
+	float: left;
+	background: url(../image/images_site/site_title_left.png) left 10px no-repeat;
+
+}
+
+
+#header_bar  #header {
+	position: relative;
+	float: left;
+	margin-left: 80px;
+	margin-top : 90px;
+	color : #e1d1d6;
+	width : 400px;
+	font-size : 11px;
+
+}
+
+.logo{
+position: absolute;
+width: 345px;
+height: 244px;
+margin-left: -80px;
+margin-top: 10px;
+z-index: 0;
+
+}
+
+/******************** MENUS SECONDAIRES **********************/
+
+#header_bar  .menu_admin  {
+	float: left;
+	width: 230px;
+	margin-top : 15px;
+
+
+}
+
+#header_bar .menu_admin  a{
+	color: white;
+	display: block;
+
+}
+
+#header_bar .menu_admin .souligner{
+color: #E1D2D8;
+text-decoration : underline;
+}
+
+/******************** MENUS GESTION ADMIN **********************/
+
+#offre_salle   h2{
+margin-top: 45px;
+text-align: center;
+}
+
+
+#offre_salle   .h2_menu_gestion{
+margin-top: 25px;
+text-align: center;
+}
+
+#offre_salle  .menu_gestion  {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: -10px;
+
+}
+
+#offre_salle .menu_gestion  a{
+	color: white;
+	margin-right: 20px;
+
+
+}
+
+#offre_salle .pagination a,
+#offre_salle .pagination p{
+	color: #2E202A;
+	font-size : 15px;
+}
+
+/******************** BARRE DE RECHERCHE **********************/
+
+#header_bar #search_box {
+	float: left;
+	width: 280px;
+	height: 29px;
+	padding: 1px;
+	margin-top: -80px;
+	margin-left: 640px;
+	background: url(../image/images_site/search_box.png);
+}
+
+#search_box form {
+	width: 280px;
+	height: 29px;
+	margin: 0;
+	padding: 0;
+}
+
+#searchfield {
+	height: 19px;
+	width: 200px;
+	padding: 5px 5px 5px 5px;
+	margin-right: 0px;
+	color: #988392;
+	font-size: 12px;
+	font-variant: normal;
+	line-height: normal;
+	background: none;
+	border: none;
+}
+
+#searchbutton {
+ 	height: 29px;
+	width: 60px;
+	padding: 0 0 10px 0;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	color: #ffffff;
+	background: none;
+	border: none;
+}
+
+/* FIN du HEADER */
+
+/******************** CONTENT **********************/
+
+#content {
+	float: right;
+	width: 700px;
+	min-height: 790px;
+	/*background: url(../image/images_site/slider_tr.png) top right no-repeat;*/
+}
+
+#content #offre_salle {
+	width: 800px;
+	padding: 10px 0;
+}
+
+#offre_salle h2 {
+	color: #ffffff;
+	font-size: 25px;
+}
+
+#content p {
+	margin-bottom: 10px;
+}
+
+#content .content_section {
+	clear: both;
+	width: 670px;
+	border-bottom: 1px dotted #666;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.droite{
+width: 230px;
+}
+
+.offre_produit {
+	float: left;
+	width: 225px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #e1d1d6;
+	margin-bottom: 50px;
+}
+
+#content .offre_produit p {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+#content .offre_produit a {
+	color: #000000;
+	font-weight: bold;
+}
+
+.price {
+	color: #7c0d41;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.offre_produit h3 {
+	background: #2e202a;
+	padding: 3px 10px;
+	margin: 10px 0;
+	color: #e1d1d6;
+	font-size: 13px;
+
+}
+
+.offre_produit .image_wrapper {
+	padding: 4px;
+	border: 1px solid #2e202a;
+	margin-bottom: 10px;
+}
+
+
+.offre_produit .image_offre {
+	border: 1px solid #2e202a;
+	margin-top: 5px;
+	width: 223px;
+	height:170px;
+
+}
+
+.offre_produit .titre_salle {
+	border: 1px solid #2e202a;
+	text-indent: 4px;
+}
+
+
+.offre_produit .price_offre {
+	color: #2E202A;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.offre_produit .fiche a:hover{
+	color: #e1d1d6;
+}
+
+
+
+/* Fin de content */
+
+
+
+/*********************** STATISTIQUES ***************************/
+#statistiques {
+margin-top : 40px;
+text-align : center;
+}
+
+#statistiques li{
+list-style : none;
+margin-bottom : 5px;
+}
+
+#statistiques li a{
+color : #9c231a;
+font-weight : bold;
+}
+
+#abonnes{
+margin-top : 45px;
+margin-bottom : 25px;
+font-weight : bold;
+}
+
+#profil{
+text-align : center;
+margin-top : 35px;
+}
+
+/*********************** TABLEAUX ***************************/
+
+.CA {
+margin-top : 50px;
+margin-bottom : 20px;
+font-weight : bold;
+font-size : 12px;
+text-align : center;
+}
+
+
+table {
+	width: 650px;
+	border:1px solid #000000;
+	border-spacing: 0px;
+	text-align : center;
+	background-color : #3D2B37;
+	color : #CAB8A7;
+	margin-bottom : 20px;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+#panier  {
+	margin-top : 80px;
+}
+
+table a, table, tbody, tfoot, tr, th, td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table a:link,
+table a:active,
+table a:hover,
+table a:visited {
+	color : white;
+}
+
+
+/*********************************/
+
+
+#deja_membre{
+	margin-top : 50px;
+	float : left;
+	width : 250px;
+	height: 200px;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	border-left: 1px dotted black;
+	padding : 30px;
+}
+
+#pas_encore_membre{
+margin-top : 50px;
+	float : left;
+	width : 250px;
+	height: 200px;
+	border: 1px dotted black;
+	padding : 30px;
+
+}
+
+#reinitialiser_mdp{
+
+	width : 400px;
+	min-height: 150px;
+	border: 1px dotted black;
+	padding : 30px;
+	margin-bottom : 30px;
+
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 3px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 15px; }
+.ui-timepicker-div dl dd{ margin: -5px 0 10px 65px; }
+.ui-timepicker-div, .ui-timepicker-div  td{ font-size: 80%; }
+.ui-datepicker {font-size: 0.8em}
+
+/*********************** FORMULAIRE ***************************/
+#inscription{
+margin-top : 80px;
+}
+
+
+#recherche {
+margin-top : 70px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+
+label {
+  width: 170px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  color: #3D2B37;
+  text-align: left;
+  margin-right: 20px;
+  border-bottom: 1px solid #989085;
+}
+
+#promo label {
+color: #CAB8A7;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+input:focus {
+  background: #eaeaea;
+}
+
+input, textarea{
+  width: 249px;
+  background-color:#989085;
+  color:#3D2B37;
+}
+
+#connexion input {
+ background-color:#CAB8A7;
+ color :#3D2B37;
+}
+
+select {
+  width: 90px;
+  background-color:#989085;
+}
+
+#ville{
+	width: 180px;
+}
+
+#ma_salle{
+	width: 120px;
+}
+
+option {
+  background-color:#3D2B37;
+  color: #989085;
+}
+
+
+.radio {
+  width: 9px;
+}
+
+textarea {
+  height: 100px;
+
+}
+
+input[type=checkbox] {
+  width: 10px;
+}
+
+
+input[type=submit] {
+  width: 250px;
+  padding: 10px;
+  background-color:#3D2B37;
+  margin-left: 200px;
+  margin-top: 15px;
+  color: #989085;
+  font-style: bold;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+#connexion input[type=submit] {
+ background-color:#D9CDCC;
+ color : white;
+}
+
+#connecter input[type=submit] {
+margin-top : 50px;
+margin-left: 0px;
+}
+
+#mdp_oublie input[type=submit] {
+margin-top : 50px;
+margin-left: 0px;
+}
+
+#fiche input[type=submit] {
+margin-left : 0px;
+}
+
+#form_fiche input[type=submit] {
+margin-left : 0px;
+margin-top : 45px;
+}
+
+.offre_produit input[type=submit] {
+  width: 140px;
+  height: 30px;
+  padding: 2px;
+  background-color:#3D2B37;
+  margin-top: 5px;
+  margin-left: 0px;
+  color: #989085;
+  font-style: bold;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+/*************** fin FORMULAIRE ***************/
+
+#desc_salle {
+float : left;
+width : 400px;
+margin-right : 20px;
+margin-top : 30px;
+}
+
+#clear{
+clear : left;
+}

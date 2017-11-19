@@ -1,0 +1,94 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   responsive.css                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pde-maul <pde-maul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/12 14:58:33 by pde-maul          #+#    #+#             */
+/*   Updated: 2017/06/12 14:59:13 by pde-maul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+p {
+	margin: 0;
+}
+body{
+	min-width: 200px;
+	min-height: 150px;
+}
+.tab {
+display: flex;
+flex-direction: column;
+width: 100%;
+
+}
+
+.line {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;}
+
+.case {
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid white;
+	width: 6vmin;
+	height: 6vmin;
+	background-color: #ffcccc;
+	min-width: 10px;
+}
+.name{
+	text-align: center;
+	border-color: red;
+	font-size:2vmin;
+	align-self: center;
+}
+.nb{
+	font-size:1vmin;
+	align-self: flex-start;
+	color: #ff6666;
+}
+.atomic{
+	align-self: flex-end;
+	font-size:1vmin;
+	color: #660000;
+}
+.alca{
+	background-color: #ff4d4d;
+}
+.alcaT{
+	background-color: #fdd9b4;
+}
+.empt{
+	background-color: white;
+}
+.nonmet{
+	background-color: #fbb36a
+}
+.metpo{
+	background-color: #ffe6cc;
+}
+.metall{
+	background-color: #ffad85;
+}
+.gasn{
+	background-color: #ff8091;
+}
+.nonc{
+	background-color: #ffe6e9;
+}
+.hal{
+	background-color: #ffffe6;
+}
+.lantha{
+	background-color: #ff8086;
+}
+.acti{
+	background-color:  #ff999e;
+}
+.img{
+	align-self: flex-end;
+}

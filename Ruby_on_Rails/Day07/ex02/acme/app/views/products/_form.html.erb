@@ -1,0 +1,26 @@
+<%= form_for @product,  multiple: true do |f| %>
+  <% if @product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% @product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<div>
+	<%= f.text_field :name, placeholder: "name" %> <br/><br/>
+	<%= f.file_field :pict %><br/><br/>
+	<%= f.text_area :description, placeholder: "description" %><br/><br/>
+	<%= f.text_field :price, placeholder: "pice" %><br/><br/>
+	<%= f.collection_select(:brand_id, Brand.all, :id, :name) %>
+
+</div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
