@@ -1,3 +1,4 @@
 # 42
 
-https://www.youtube.com/playlist?list=PL_pcSETOqZnaZxuCdYCSCJ86q33nLbbn8
+## Voici mes projets, réalisés dans le cadre de l'école 42 Paris, 
+## ou l'école 42 Silicon Valley et mes projets persos
